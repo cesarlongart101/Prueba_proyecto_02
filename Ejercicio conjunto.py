@@ -17,6 +17,29 @@ if operacion == "Suma":
     Suma = num_1 + num_2
     print("La suma de", num_1, "y", num_2, "es igual a", Suma)
 
+if operacion == "Resta":
+    num_1 = int(input("Dime un número: "))
+    num_2 = int(input("Dime otro número: "))
+
+    Resta = num_1 - num_2
+    print("La resta de", num_1, "y", num_2, "es igual a", Resta)
+
+if operacion == "Multiplicacion":
+    num_1 = int(input("Dime un número: "))
+    num_2 = int(input("Dime otro número: "))
+
+    Multiplicacion = num_1 * num_2
+    print("La multiplicación de", num_1, "y", num_2, "es igual a", Multiplicacion)
+
+if operacion == "Division":
+    num_1 = int(input("Dime un número: "))
+    num_2 = int(input("Dime otro número: "))
+
+    Division = num_1 / num_2
+    print("La division de", num_1, "y", num_2, "es igual a", Division)
+
+
+
 
 
 
