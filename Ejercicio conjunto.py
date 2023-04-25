@@ -3,6 +3,7 @@
 
 
 #Zona Cesar
+
 print("---------------------------------")
 print("Bienvenido al programa de cálculo")
 print("---------------------------------")
@@ -12,6 +13,7 @@ operacion = input("¿Qué operación quieres hacer? Suma, Resta, Multiplicación
 if operacion == "Suma":
     num_1 = int(input("Dime un número: "))
     num_2 = int(input("Dime otro número: "))
+
 #Zona de Vane
 
     Suma = num_1 + num_2
